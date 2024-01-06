@@ -368,12 +368,12 @@ static void _printMenu()
     Helper.ChangeTextColor(ConsoleColor.Yellow, "6- GetEmployeeByDepartment");
     Helper.ChangeTextColor(ConsoleColor.Yellow, "7- GetAllDepartments ");
 
-    Helper.ChangeTextColor(ConsoleColor.Cyan, "8- CreateEmployee");
-    Helper.ChangeTextColor(ConsoleColor.Cyan, "9- UpdateEmployee");
-    Helper.ChangeTextColor(ConsoleColor.Cyan, "10- DeleteEmployee");
-    Helper.ChangeTextColor(ConsoleColor.Cyan, "11- GetEmployeeById");
+    Helper.ChangeTextColor(ConsoleColor.Yellow, "8- CreateEmployee");
+    Helper.ChangeTextColor(ConsoleColor.Red, "9- UpdateEmployee");
+    Helper.ChangeTextColor(ConsoleColor.Green, "10- DeleteEmployee");
+    Helper.ChangeTextColor(ConsoleColor.Blue, "11- GetEmployeeById");
     Helper.ChangeTextColor(ConsoleColor.Cyan, "12- GetEmployeeByAdress");
-    Helper.ChangeTextColor(ConsoleColor.Cyan, "13- SearchEmployee");
+    Helper.ChangeTextColor(ConsoleColor.Yellow, "13- SearchEmployee");
     Helper.ChangeTextColor(ConsoleColor.Cyan, "14- GetAllEmployee");
 
     Helper.ChangeTextColor(ConsoleColor.Red, "15- ExitProgram ");
